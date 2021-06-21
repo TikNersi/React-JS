@@ -15,10 +15,22 @@
     align-items: center;
     width: 100%;
 }
-.trash  {
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
+.MuiPaper-elevation1{
     margin: 5px;
+    width: 250px;
+    justify-content: center;
+}
+
+.edit-trash-container{
+    position: absolute;
+    transform: translate(99px,5px);
+}
+#delete-edit-icons {
+    font-size: 1.2rem;
+}
+.card {
+    
+    background: linear-gradient(
+        90deg
+        ,rgb(80 224 182) 40%, rgb(0 212 255) 100%);
 }

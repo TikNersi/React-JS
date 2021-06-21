@@ -1,16 +1,14 @@
 import './App.css';
-import Sidebar from './Sidebar/Sidebar';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Fields from './Fields/Fields';
 import Project from './Project/Project';
+import Sidebar from './Sidebar/Sidebar';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <div className="containerr">
+
         <Sidebar />
-        <Project />
-        </div>
+      <div className="App">
+        <Project /> 
       </div>
     </Router>
   );

@@ -1,0 +1,12 @@
+#form-dialog-title {
+    display: flex;
+    justify-content: center;
+}
+
+.container-modal {
+    height: 20rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
